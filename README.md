@@ -6,7 +6,7 @@ GodEye是一个基于micrometer的监控打点包，主要是对micrometer的met
 * 支持JVM metrcis打点
 * 支持Http服务端请求进行metrcis打点
 * 支持Tomcat metrcis打点
-* 支持数据源（druid、hikaricp、shardingjdbc）连接池metrcis打点，并对SQL语句进行打点
+* 支持数据源（druid、hikaricp、shardingjdbc）连接池metrcis打点，并可以对SQL耗时进行打点
 * 支持hazecast metrcis打点
 * 支持rabbitmq、kafka metrcis打点
 * 支持openfeign metrcis打点
