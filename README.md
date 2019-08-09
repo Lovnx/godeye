@@ -14,7 +14,7 @@ GodEye是一个基于micrometer的监控打点包，主要是对micrometer的met
 * 支持resttemplate metrcis打点
 * 支持Spring线程池打点
 * 与kafka及skywalking集成，可以把日志全量的输到kafka中，在应用中可以不使用filebeat等收集工具来收集日志
-* 规范化日志输出格式，让公司的日志标准统一
+* 可以强制更改应用的日志格式，能够让公司的日志格式统一规范
 * 可自由与prometheus、influxdb集成
 
 # 使用说明
